@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 500vh;
+}
+.page-1{
+    background: url(https://images-ext-1.discordapp.net/external/18SioJnO7GgQTBqp9UpqsvbJ3HvohYHnvz8TpMDxdsw/%3Fitok%3DuoyuvFBm/https/aviationweek.com/sites/default/files/styles/crop_freeform/public/2020-11/gps_iii-4_launch_streak-spacex.jpg?width=1031&height=687);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+.header-outer{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding-left: px;
+    
+}
+.header-inner{
+    width: 75%;
+    height: 100%;
+    position: relative;
+    left: 200px;
+    /* background-color: rgba(255, 31, 31, 0.479); */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    left: 20px;
+}
+
+.logo-item{
+    height: 40%;
+    width: 15%;
+    position: absolute;
+    left: 50px;
+    padding-bottom: 10px;
+}
+
+.nav-box{
+    width: 50%;
+    height: 10vh;
+    position: absolute;
+    left: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-items{
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    /* font-variant-caps: all-small-caps; */
+    text-transform: uppercase;
+    color: white;
+    margin: 3px;
+}
+
+.menu-burger{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right:10px;
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-bars{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px;
+}
+
+.page-1-container{
+    width: 75%;
+    height: 100%;
+    /* background-color: tomato; */
+    position: relative;
+    left: 20px;
+    margin: 0 auto;
+}
+.news-container{
+    position: absolute;
+    bottom: 150px;
+    left: 43px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 0px 8px #000000;
+}
+.news-subheading{
+    width: 75%;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.news-heading{
+    width: 75%;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    line-height: 45px;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white ;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+  }
+
